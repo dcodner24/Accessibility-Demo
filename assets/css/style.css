@@ -41,15 +41,6 @@ body {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
 .background_image {
     height: 800px;
     width: 100%;
@@ -69,7 +60,7 @@ p {
     margin-left: 25px;
 }
 
-.product {
+.services {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -197,4 +188,13 @@ p {
 
 .copyright h2 {
     font-size: 20px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
 }
