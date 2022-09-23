@@ -2,65 +2,16 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+The goal of this project was to add acessability to a website sent in with a support tiket. This was accomplished by formatting the HTML file to add semantic HTML elements, adding alt text to all images linked in the HTML, and corrected heading element sizing. Throughout the course of this project, I learned that semantic HTML elements, in addition to adding accesibility to websites, often makes code look cleaner when programming. Additionally, several technical errors were found while checking over code, inluding a pointer error in the nav bar, which resulted in an unresponsive button.
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-The goal of this project was to restructure given code to make it more accessible. The structure of the assignment imitated that of a support ticket in order to simulate
+## Screenshots
 
-## Table of Contents (Optional)
+![Image of nav bar id tag](assets/images/pointer_error.png)
+This is the snippit of code from the nav-bar that points to the id "#search-engine-optimization", which was not present in the starter code.
 
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-
-## Installation
-
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
-
-## Usage
-
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
-
-![alt text](assets/images/screenshot.png)
-
-## Credits
-
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+![Image of fixed id](assets/images/pointer_error1.png)
+This is a screenshot of the snippet that was corrected, notice that "#search-engine-optimization" is now present, making the button responsive.
 
 ## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-
----
-
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
-
-Badges aren't necessary, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-## Features
-
-If your project has a lot of features, list them here.
-
-## How to Contribute
-
-If you created an application or package and would like other developers to contribute to it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+Please refer to the liscence present in the associated repo.
