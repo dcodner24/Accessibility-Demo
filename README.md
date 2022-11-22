@@ -1,4 +1,4 @@
-# UTA Boot Camp Challenge 1
+# Webisite Accessibility Demo
 
 ## Description
 
